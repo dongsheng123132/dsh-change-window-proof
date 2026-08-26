@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-change-window-proof
+      name: dsh-change-window-proof
+      config:
+        workspaceRoot: .
