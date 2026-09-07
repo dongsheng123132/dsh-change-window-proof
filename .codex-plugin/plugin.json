@@ -1,19 +1,31 @@
 {
   "name": "dsh-change-window-proof",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Offline proof that a supplied change event chain stayed inside one declared maintenance window",
-  "author": { "name": "dongsheng123132" },
+  "author": {
+    "name": "dongsheng123132"
+  },
   "homepage": "https://github.com/dongsheng123132/dsh-change-window-proof",
   "repository": "https://github.com/dongsheng123132/dsh-change-window-proof",
   "license": "MIT",
-  "keywords": ["deepseek-harness", "dsh", "change-management", "maintenance-window", "evidence"],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "change-management",
+    "maintenance-window",
+    "evidence"
+  ],
   "interface": {
     "displayName": "DSH Change Window Proof",
     "shortDescription": "Verify a supplied change-window settlement.",
     "longDescription": "Checks a hash-linked change event ledger for one declared UTC window, cutoff, artifact, environment, change receipt, observer threshold and freshness without executing or approving a change.",
     "developerName": "dongsheng123132",
     "category": "Developer Tools",
-    "capabilities": ["MCP tools", "DSH tools", "offline verification"],
+    "capabilities": [
+      "MCP tools",
+      "DSH tools",
+      "offline verification"
+    ],
     "defaultPrompt": "Verify this explicit change-window manifest without approving or changing live infrastructure."
   },
   "mcpServers": "./.mcp.json"
