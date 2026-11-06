@@ -1,6 +1,6 @@
 # dsh-change-window-proof
 
-作者 / 维护者：He Fangsheng (贺方升 / 贺去病; Dosen)· [hequbing.com](https://www.hequbing.com)
+作者 / 维护者：He Fangsheng (贺方升 / 贺去病; also known as Dosen)· [hequbing.com](https://www.hequbing.com)
 
 这是一个离线、确定性的 DSH 证据层，只回答一个窄问题：**显式提供的哈希链变更账本，是否完整落在同一个声明的 UTC 维护窗口内，并始终绑定同一个变更回执、制品、环境、策略和计划？**
 
