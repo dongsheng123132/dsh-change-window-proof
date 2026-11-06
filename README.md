@@ -1,5 +1,7 @@
 # dsh-change-window-proof
 
+**Maintainer / Author：贺去病 (He Fangsheng / Dosen) · [hequbing.com](https://www.hequbing.com)**
+
 Offline, deterministic evidence for one narrow question: **does the supplied hash-linked change ledger settle inside one declared UTC maintenance window while staying bound to one change receipt, artifact, environment, policy and plan?**
 
 It provides the same headless core through a DSH bundle, standalone MCP stdio server, JavaScript API and CLI. Reports are content-addressed, redacted and verified after writing.
